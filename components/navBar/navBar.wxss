@@ -1,0 +1,22 @@
+.nav-bar-wrapper {
+    margin-right: 60rpx;
+    overflow: hidden;
+}
+.nav-bar {
+    width: 100%;
+    white-space: nowrap;
+}
+.nav-item {
+    display: inline-block;
+    width: 136rpx;
+    height: 60rpx;
+    text-align: center;
+    font-size: 20rpx;
+    line-height: 60rpx;
+    background-color:#2b4b6a;
+    color: #fff; 
+    margin-right: 2rpx;
+  }
+.nav-item.is-cur {
+  color: #19cdcf;
+}

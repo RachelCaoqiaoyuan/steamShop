@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "nav-bar": "/components/navBar/navBar",
+        "city-picker": "/components/city-picker/city-picker"
+    }
+}

@@ -1,0 +1,7 @@
+<view>
+  <nav-bar
+    curId="{{curId}}"
+    navBars="{{navBars}}"
+    bindchange="evtChangeCur"
+  />
+</view>

@@ -1,0 +1,19 @@
+<view class="nav-bar-wrapper">
+  <scroll-view
+    class="nav-bar"
+    scroll-x
+    scroll-with-animation
+    scroll-into-view="{{curId}}"
+  >
+    <view
+      class="nav-item{{curId == item.id ? ' is-cur' : ''}}"
+      wx:for="{{navBars}}"
+      wx:key="{{item.id}}"
+      data-id="{{item.id}}"
+      id="{{item.id}}"
+      bindtap="evtChangeCur"
+    >
+      <text>{{item.txt}}</text>
+    </view>
+  </scroll-view>
+</view>

@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<import src="../index/navBar.wxml" />
+<view class="container log-list">
+    <text>hello log</text>
+    <template is="navbar" data="{{curId, navBars}}" />
+</view>
